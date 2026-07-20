@@ -42,7 +42,7 @@ This Terraform project provisions a secure Azure networking environment consisti
 
 # Architecture
 
-![Architecture](01-Architecture/01-Final-Architecture.png)
+![Architecture](01-Architecture/01-Final Architecture.png)
 
 ---
 
