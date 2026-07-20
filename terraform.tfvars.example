@@ -1,0 +1,14 @@
+subscription_id = "YOUR-AZURE-SUBSCRIPTION-ID"
+
+resource_group_name = "RG-Hub-Spoke-Terraform"
+
+location        = "Central India"
+spoke2_location = "East US"
+
+admin_source_public_ip = "YOUR-PUBLIC-IP/32"
+
+admin_username = "azureadmin"
+admin_password = "REPLACE-WITH-A-STRONG-PASSWORD"
+
+vm1_size = "REPLACE-WITH-AVAILABLE-CENTRAL-INDIA-SKU"
+vm2_size = "REPLACE-WITH-AVAILABLE-EAST-US-SKU"
