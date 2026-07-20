@@ -97,21 +97,23 @@ This Terraform project provisions a secure Azure networking environment consisti
 | VM2 | Windows Server (East US) |
 
 ---
-# Terraform File Structure
+## Terraform File Structure
 
+```text
 Azure-Hub-Spoke-Terraform/
 ├── 01-Architecture/
 │   ├── Final-Architecture.png
 │   ├── Traffic-Flow.png
 │   └── RDP-DNAT-Flow.png
-
+│
 ├── 02-Screenshots/
+│
 ├── 03-Documentation/
 │   ├── Architecture.md
 │   ├── Deployment.md
 │   ├── Security.md
 │   └── Validation.md
-
+│
 ├── 01-versions.tf
 ├── 02-provider.tf
 ├── 03-variables.tf
@@ -122,11 +124,11 @@ Azure-Hub-Spoke-Terraform/
 ├── 09-security.tf
 ├── 10-virtual-machines.tf
 ├── 11-outputs.tf
-
 ├── terraform.tfvars.example
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 # Deployment
 
