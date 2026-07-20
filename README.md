@@ -1,5 +1,10 @@
 # Azure Multi-Region Hub-and-Spoke Network Architecture using Terraform
 
+![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?logo=terraform)
+![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?logo=microsoftazure)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 A production-style Azure Hub-and-Spoke network architecture deployed using **Terraform Infrastructure as Code (IaC)**.
 
 This project demonstrates secure communication between multiple Azure Virtual Networks using Azure Firewall, Global VNet Peering, User Defined Routes (UDR), Network Security Groups (NSGs), and DNAT rules.
@@ -73,19 +78,6 @@ This Terraform project provisions a secure Azure networking environment consisti
 | Network Security Groups | Subnet Security |
 | VM1 | Windows Server (Central India) |
 | VM2 | Windows Server (East US) |
-
----
-
-# Network Topology
-
-| Resource | Region | Address Space |
-|-----------|---------|---------------|
-| Hub VNet | Central India | 10.0.0.0/16 |
-| AzureFirewallSubnet | Central India | 10.0.0.0/26 |
-| Spoke1 VNet | Central India | 10.1.0.0/16 |
-| Spoke1 Subnet | Central India | 10.1.1.0/24 |
-| Spoke2 VNet | East US | 10.2.0.0/16 |
-| Spoke2 Subnet | East US | 10.2.1.0/24 |
 
 ---
 
