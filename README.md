@@ -99,8 +99,17 @@ This Terraform project provisions a secure Azure networking environment consisti
 ---
 # Terraform File Structure
 
-Azure-Hub-Spoke-Terraform
-│
+Azure-Hub-Spoke-Terraform/
+├── 01-Architecture/
+│   ├── Final-Architecture.png
+│   ├── Traffic-Flow.png
+│   └── RDP-DNAT-Flow.png
+├── 02-Screenshots/
+├── 03-Documentation/
+│   ├── Architecture.md
+│   ├── Deployment.md
+│   ├── Security.md
+│   └── Validation.md
 ├── 01-versions.tf
 ├── 02-provider.tf
 ├── 03-variables.tf
@@ -111,8 +120,10 @@ Azure-Hub-Spoke-Terraform
 ├── 09-security.tf
 ├── 10-virtual-machines.tf
 ├── 11-outputs.tf
-├── README.md
-``
+├── terraform.tfvars.example
+├── .gitignore
+├── LICENSE
+└── README.md
 
 # Deployment
 
@@ -234,10 +245,3 @@ terraform destroy
 Azure Administrator | Terraform | Azure Networking | Infrastructure as Code (IaC)
 
 ---
-![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4?logo=terraform)
-
-![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?logo=microsoftazure)
-
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
-![License](https://img.shields.io/badge/License-MIT-blue)
