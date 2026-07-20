@@ -112,7 +112,7 @@ Azure-Hub-Spoke-Terraform
 ├── 10-virtual-machines.tf
 ├── 11-outputs.tf
 ├── README.md
-```
+``
 
 # Deployment
 
